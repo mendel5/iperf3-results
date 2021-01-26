@@ -31,6 +31,20 @@ Source:
 - https://www.reddit.com/r/HomeNetworking/comments/70sai8/iperf_testing_what_is_considered_a_good_result_on/
 - https://www.reddit.com/r/HomeNetworking/comments/70sai8/iperf_testing_what_is_considered_a_good_result_on/dn5kmuy/
 
+### Reference 4
+> Iperf zum Messen der Netzgeschwindigkeit
+
+> The following stats show actual iperf measurements. Measurements were taken on a classic Ethernet hub, a Fast Ethernet switch and a Gigabit Ethernet. Iperf was first started without further options and then with the command `iperf -c 192.168.0.20 -w 512k -l 512k`.
+
+| Network type     | Iperf default [MBit/s] | Iperf with options (see above) [MBit/s] | Theoretical maximum [MBit/s] |
+|------------------|------------------------|-----------------------------------------|------------------------------|
+| Ethernet hub     | 7,5                    | 7,5                                     | 10                           |
+| Fast Ethernet    | 95                     | 95                                      | 100                          |
+| Gigabit Ethernet | 346                    | 948                                     | 1000                         |
+
+Source:
+- http://www.nwlab.net/art/iperf/
+
 
 ### Tags
 - Expected bandwidth
