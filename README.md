@@ -4,7 +4,7 @@ Results of iperf and iperf3
 ## Bandwidth
 After testing my connection with iperf3 I was wondering if my results are good and what a good/ acceptable bandwidth looks like. I found the following references.
 
-The iperf3 test was done with a CAT6 cable that supports gigabit ethernet.
+The iperf3 test was done with a CAT6 cable that supports gigabit ethernet. iperf3 was running in TCP mode.
 
 ### Reference 1
 > iperf indicating 940 Mbits/sec using cat 5 cable
