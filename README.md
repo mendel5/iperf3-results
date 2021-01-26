@@ -32,7 +32,7 @@ Source:
 - https://www.reddit.com/r/HomeNetworking/comments/70sai8/iperf_testing_what_is_considered_a_good_result_on/dn5kmuy/
 
 ### Reference 4
-> Iperf zum Messen der Netzgeschwindigkeit
+> Using Iperf for measuring the network speed
 
 > The following stats show actual iperf measurements. Measurements were taken on a classic Ethernet hub, a Fast Ethernet switch and a Gigabit Ethernet. Iperf was first started without further options and then with the command `iperf -c 192.168.0.20 -w 512k -l 512k`.
 
