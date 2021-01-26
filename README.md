@@ -32,8 +32,10 @@ Source:
 - https://www.reddit.com/r/HomeNetworking/comments/70sai8/iperf_testing_what_is_considered_a_good_result_on/dn5kmuy/
 
 
-Tags:
+### Tags
 - Expected bandwidth
 - data transfer rate
 - Is my bandwidth ok?
 - Are my results good?
+- iperf3 expected results
+- iperf3 good results example
