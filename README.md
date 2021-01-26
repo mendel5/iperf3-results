@@ -42,6 +42,8 @@ Source:
 | Fast Ethernet    | 95                     | 95                                      | 100                          |
 | Gigabit Ethernet | 346                    | 948                                     | 1000                         |
 
+> The measurements were performed between two systems with Intel Core 2 Duo CPU at around 2 GHz. Broadcom NetXtreme Gigabit NICs were used as network cards. The combination of Thinkpad R60 (Windows XP) and Apple Mac Mini C2D 1.83 MHz (Mac OS X Leopard) achieved about 940 MBit/s in the test.
+
 Source:
 - http://www.nwlab.net/art/iperf/
 
