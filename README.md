@@ -55,3 +55,18 @@ Source:
 - Are my results good?
 - iperf3 expected results
 - iperf3 good results example
+
+
+## Commands
+
+```
+iperf3 -s -V
+```
+
+This command starts iperf3 in server mode. The `-s` activates the server mode and the `-V` is for enabling the detailed output (verbose). Other commands can be found with `iperf3 help`.
+
+```
+iperf3 -s -V > ~/iperf3-log.txt
+```
+
+This command does the same thing as above, except that it writes the output to the file `iperf3-log.txt` in the user's home directory in contrast to printing it on the console/ terminal (as the first command does).
