@@ -1,5 +1,5 @@
 # iperf3-results
-Results of iperf and iperf3
+Interpretation of iperf and iperf3 results, especially regarding speed
 
 ## Bandwidth
 After testing my connection with iperf3 I was wondering if my results are good and what a good/ acceptable bandwidth looks like. I found the following references.
