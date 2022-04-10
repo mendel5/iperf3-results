@@ -62,19 +62,6 @@ Source:
 
 ### Part 1
 ```
-iperf3 -s -V
-```
-
-This command starts iperf3 in server mode. The `-s` activates the server mode and the `-V` is for enabling the detailed output (verbose). Other commands can be found with `iperf3 help`.
-
-```
-iperf3 -s -V > ~/iperf3-log.txt
-```
-
-This command does the same thing as the one above, except that it writes the output to the file `iperf3-log.txt` in the user's home directory in contrast to printing it on the console/ terminal (as the first command does).
-
-### Part 2
-```
 sudo apt install iperf3
 
 Get server IP:
@@ -86,3 +73,16 @@ iperf3 -s
 Client:
 iperf3 -c SERVER_IP
 ```
+
+### Part 2
+```
+iperf3 -s -V
+```
+
+This command starts iperf3 in server mode. The `-s` activates the server mode and the `-V` is for enabling the detailed output (verbose). Other commands can be found with `iperf3 help`.
+
+```
+iperf3 -s -V > ~/iperf3-log.txt
+```
+
+This command does the same thing as the one above, except that it writes the output to the file `iperf3-log.txt` in the user's home directory in contrast to printing it on the console/ terminal (as the first command does).
