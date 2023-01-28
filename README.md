@@ -78,11 +78,9 @@ iperf3 -c SERVER_IP
 ```
 iperf3 -s -V
 ```
-
-This command starts iperf3 in server mode. The `-s` activates the server mode and the `-V` is for enabling the detailed output (verbose). Other commands can be found with `iperf3 help`.
+The command above starts iperf3 in server mode. The `-s` activates the server mode and the `-V` is for enabling the detailed output (verbose). Other commands can be found with `iperf3 help`.
 
 ```
 iperf3 -s -V > ~/iperf3-log.txt
 ```
-
-This command does the same thing as the one above, except that it writes the output to the file `iperf3-log.txt` in the user's home directory in contrast to printing it on the console/ terminal (as the first command does).
+The command above does the same thing as the one further above, except that it writes the output to the file `iperf3-log.txt` in the user's home directory in contrast to printing it on the console/ terminal (as the first command does).
